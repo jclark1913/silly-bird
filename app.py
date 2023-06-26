@@ -34,8 +34,14 @@ def add_user_to_g():
     if CURR_USER_KEY in session:
         g.user = User.query.get(session[CURR_USER_KEY])
 
+    # PRODUCTION: Should get
+    # else:
+    #     g.user = None
+
+    # DEV/TESTING: Returns default user (no login required)
+
     else:
-        g.user = None
+        g.user = User.query.get(1)
 
 
 @app.before_request
