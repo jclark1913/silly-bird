@@ -399,6 +399,10 @@ def homepage():
     - logged in: 100 most recent messages of followed_users
     """
 
+    # Disable auth layer in preview mode
+    flash("You are viewing this app in preview mode. Logging in/logging out are disabled while the app is in preview mode.", "success")
+
+
     if g.user:
         following_users = g.user.following
         following_ids = [user.id for user in following_users]
