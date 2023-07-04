@@ -34,8 +34,14 @@ def add_user_to_g():
     if CURR_USER_KEY in session:
         g.user = User.query.get(session[CURR_USER_KEY])
 
+    # PRODUCTION: Should get
     else:
         g.user = None
+
+    # DEV/TESTING: Returns default user (no login required)
+
+    # else:
+    #     g.user = User.query.get(1)
 
 
 @app.before_request
@@ -101,6 +107,7 @@ def signup():
 def login():
     """Handle user login and redirect to homepage on success."""
 
+
     form = LoginForm()
 
     if form.validate_on_submit():
@@ -114,6 +121,10 @@ def login():
             return redirect("/")
 
         flash("Invalid credentials.", 'danger')
+
+    # DEVELOPMENT: Flash demo credentials on initial page load
+    elif request.method == "GET":
+        flash("IMPORTANT: Use demo credentials to log in ('guest', 'password')", "success")
 
     return render_template('users/login.html', form=form)
 
@@ -392,6 +403,10 @@ def homepage():
     - anon users: no messages
     - logged in: 100 most recent messages of followed_users
     """
+
+    # Disable auth layer in preview mode
+    # flash("You are viewing this app in preview mode. Logging in/logging out are disabled while the app is in preview mode.", "success")
+
 
     if g.user:
         following_users = g.user.following
