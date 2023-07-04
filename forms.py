@@ -37,12 +37,12 @@ class LoginForm(FlaskForm):
 
     username = StringField(
         'Username',
-        validators=[DataRequired()],
+        validators=[DataRequired()]
     )
 
     password = PasswordField(
         'Password',
-        validators=[Length(min=6)],
+        validators=[Length(min=6)]
     )
 
 class EditUserForm(FlaskForm):
