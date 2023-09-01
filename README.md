@@ -17,7 +17,7 @@
     <a href="https://github.com/jclark1913/warbler"><strong>View documentation »</strong></a>
     <br />
     <br />
-    <a href="sillybird.justinclark.bio">View Demo</a>
+    <a href="https://sillybird.justinclark.bio">View Demo</a>
     ·
     <a href="https://github.com/jclark1913/warbler/issues">Report Bug</a>
     ·
@@ -52,7 +52,7 @@
 ![Product Name Screen Shot][product-screenshot]
 
 Silly Bird App is a social media platform not unlike another silly bird app you might be familiar with. Users can create
-accounts, follow other users, make posts, like posts as well as edit their profile and posts. I launched this project in spring 2023 as part of <a href="rithmschool.com">Rithm School's</a> curriculum, and despite some light refactoring since then I've mostly transitioned to creating <a href="https://github.com/jclark1913/syria-daily-brief">other projects</a>.
+accounts, follow other users, make posts, like posts as well as edit their profile and posts. I launched this project in spring 2023 as part of <a href="https://rithmschool.com">Rithm School's</a> curriculum, and despite some light refactoring since then I've mostly transitioned to creating <a href="https://github.com/jclark1913/syria-daily-brief">other projects</a>.
 
 Silly Bird is a Flask app that uses Postgresql for its database with SQLAlchemy as an ORM. User data is securely handled via the bcrypt library, which salts and hashes passwords through one-way encryption. Pages are rendered from html templates designed with Jinja and JQuery styled in Bootstrap.
 
@@ -80,7 +80,7 @@ Silly Bird is a Flask app that uses Postgresql for its database with SQLAlchemy 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To see the project in action, visit the <a href="sillybird.justinclark.bio">demo</a>.
+To see the project in action, visit the <a href="https://sillybird.justinclark.bio">demo</a>.
 
 Otherwise, to build Silly Bird App from source:
 
