@@ -25,6 +25,18 @@
   </p>
 </div>
 
+<div align="center">
+
+![Top Languages](https://img.shields.io/github/languages/top/jclark1913/warbler)
+![GitHub repo size](https://img.shields.io/github/repo-size/jclark1913/warbler)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/jclark1913/warbler)
+![GitHub contributors](https://img.shields.io/github/contributors/jclark1913/warbler)
+![GitHub last commit](https://img.shields.io/github/last-commit/jclark1913/warbler)
+![GitHub issues](https://img.shields.io/github/issues/jclark1913/warbler)
+![GitHub](https://img.shields.io/github/license/jclark1913/warbler)
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
