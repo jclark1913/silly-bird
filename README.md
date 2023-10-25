@@ -144,7 +144,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Justin Clark - [@JustinClarkJO](https://twitter.com/@JustinClarkJO) - jclarksummit@gmail.com
+Justin Clark - [@JustinClarkJO](https://twitter.com/@JustinClarkJO) - jclarksummit AT gmail DOT com
 
 Project Link: [https://github.com/jclark1913/warbler](https://github.com/jclark1913/warbler)
 
